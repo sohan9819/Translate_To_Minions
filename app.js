@@ -22,6 +22,7 @@ const translate = (url) => {
         outputArea.value = data.contents.translated;
     })
     .catch(err => {
+        alert("Opps Error!!! \nPlease try again after sometime")
         console.log("Error!!!!" , err)
     })
 }
