@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  background-color: #93c5fd;
+}
+
+.bx1 {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #111827;
+}
+
+.bx1 h1 {
+  font-size: 1.8em;
+  font-family: "Courier New", Courier, monospace;
+  color: #fbbf24;
+}
+
+.bx2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.bx2 textarea {
+  height: 40%;
+  width: 80%;
+  max-width: 308px;
+  max-height: 148px;
+  padding: 0.6em;
+}
+
+.bx2 button {
+  padding: 0.6em 1em;
+  background-color: #fbbf24;
+  border: none;
+  border-radius: 0.4em;
+  font-size: 1em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+}
+
+.bx3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 2em 0.4em;
+}
+
+.bx3 h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bx3 a {
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
